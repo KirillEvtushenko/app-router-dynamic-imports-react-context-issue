@@ -9,9 +9,12 @@ export const Provider: React.FC<PropsWithChildren> = ({ children }) => {
 
   useEffect(() => {
     setTest(1)
-  }, [])
-  // New value on rerender causes CLS
-  const value = {}
 
+    return () => {}
+  }, [])
+
+  // New value on rerender causes CLS
+  const value = {};
+  
   return <TestProvider.Provider value={value}>{children}</TestProvider.Provider>
 }

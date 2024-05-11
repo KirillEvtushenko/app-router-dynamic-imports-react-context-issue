@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "classnames": "^2.5.1",
-    "next": "14.2.0-canary.65",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "14.3.0-canary.57",
+    "react": "19.0.0-beta-4508873393-20240430",
+    "react-dom": "19.0.0-beta-4508873393-20240430",
+    "video.js": "^8.10.0"
   },
   "devDependencies": {
     "@types/node": "^20",
