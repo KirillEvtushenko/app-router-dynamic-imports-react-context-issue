@@ -2,8 +2,6 @@
 
 This repo uses `"next": "14.3.0-canary.57"` to reproduce an issue.
 
-The issue is a noticeable content flickering (or CLS) caused by having multiple levels of dynamic imports along with React.ContextAPI.
-
 *Note: App uses only "use client" components in order to avoid any composition issues with RSC and to simplify the code.*
 
 ## Prerequisites
