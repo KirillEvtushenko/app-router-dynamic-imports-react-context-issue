@@ -20,6 +20,6 @@ The issue is a noticeable content flickering (or CLS) caused by having multiple 
 
 With opened devtools and disabled cache click the only link `<Link /> navigation` on [http://localhost:3000](http://localhost:3000). JS chunks will load consequently, causing noticable CLS.
 
-### First issue: direct open / refresh
+### Second issue: direct open / refresh
 
 Open/refresh [http://localhost:3000/page2](http://localhost:3000/page2) with opened devtools and disabled cache. CLS is visible.
